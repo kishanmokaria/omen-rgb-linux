@@ -1,0 +1,11 @@
+[Unit]
+Description=HP OMEN RGB Keyboard Color Initialization
+After=systemd-modules-load.service systemd-tmpfiles-setup.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/omen-rgb static FF4500
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

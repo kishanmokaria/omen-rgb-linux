@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+
+# ACPI / Reverse Engineering dumps & binaries
+*.dsl
+*.dat
+*.bin
+*.dll
+*.exe
+*.cs
+
+# Logs & OS artifacts
+*.log
+*.tmp
+.DS_Store

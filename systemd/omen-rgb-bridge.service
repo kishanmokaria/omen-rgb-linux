@@ -1,0 +1,14 @@
+[Unit]
+Description=HP OMEN OpenRGB Lighting Bridge Daemon
+After=network.target default.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/projects/omen-rgb-linux
+ExecStartPre=/bin/sleep 2
+ExecStart=%h/projects/omen-rgb-linux/venv/bin/python3 %h/projects/omen-rgb-linux/src/openrgb_bridge.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,42 @@
+{
+    "E131Devices": {
+        "devices": [
+            {
+                "ip": "127.0.0.1",
+                "name": "WASD",
+                "num_leds": 1,
+                "rgb_order": 0,
+                "start_channel": 0,
+                "start_universe": 1,
+                "type": 0
+            },
+            {
+                "ip": "127.0.0.1",
+                "name": "Left",
+                "num_leds": 1,
+                "rgb_order": 0,
+                "start_channel": 3,
+                "start_universe": 1,
+                "type": 0
+            },
+            {
+                "ip": "127.0.0.1",
+                "name": "Center",
+                "num_leds": 1,
+                "rgb_order": 0,
+                "start_channel": 6,
+                "start_universe": 1,
+                "type": 0
+            },
+            {
+                "ip": "127.0.0.1",
+                "name": "Right",
+                "num_leds": 1,
+                "rgb_order": 0,
+                "start_channel": 9,
+                "start_universe": 1,
+                "type": 0
+            }
+        ]
+    }
+}
